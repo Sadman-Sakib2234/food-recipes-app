@@ -4,8 +4,8 @@ import Recipe from "./Recipe";
 
 const App = () => {
   // App id
-  const APP_ID = "901412de";
-  const APP_KEY = "bc9ada781e0e418a7f081712f6e30765";
+  const APP_ID = ""; // from edamam
+  const APP_KEY = "";
 
   const [ recipes, setRecipes ] = useState([]);
   const [search, setSearch] = useState('');
